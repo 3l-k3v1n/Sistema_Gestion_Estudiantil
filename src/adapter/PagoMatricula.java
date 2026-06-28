@@ -1,4 +1,5 @@
 package adapter;
 
-public class PagoMatricula {
+public interface PagoMatricula {
+    void pagar(String estudiante, double monto);
 }
