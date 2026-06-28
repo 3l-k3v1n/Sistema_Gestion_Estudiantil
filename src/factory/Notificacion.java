@@ -1,4 +1,5 @@
 package factory;
 
-public class Notificacion {
+public interface Notificacion {
+    void enviarMensaje(String destinatario, String mensaje);
 }
